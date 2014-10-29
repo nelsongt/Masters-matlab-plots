@@ -1,0 +1,29 @@
+data1 = importdata('1.txt','\t')
+data2 = importdata('2.txt','\t')
+data3 = importdata('3.txt','\t')
+data4 = importdata('4.txt','\t')
+data5 = importdata('5.txt','\t')
+data6 = importdata('6.txt','\t')
+data7 = importdata('7.txt','\t')
+
+x1 = data1(:,1);
+y1 = data1(:,2);
+x2 = data2(:,1);
+y2 = data2(:,2);
+x3 = data3(:,1);
+y3 = data3(:,2);
+x4 = data4(:,1)
+y4 = data4(:,2);
+x5 = data5(:,1)
+y5 = data5(:,2)
+x6 = data6(:,1)
+y6 = data6(:,2)
+x7 = data7(:,1)
+y7 = data7(:,3)
+
+highest = 0;
+for i==0; i < size(x1); i=i+1)
+{
+    if (x1[i] > highest)
+    highest = x1[i]
+}
